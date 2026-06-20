@@ -1,0 +1,5 @@
+# This bot deploys as a self-contained bundle. Disable Bun's runtime
+# auto-install so eve's lazy, optional sandbox imports can never pull the
+# dependency tree from npm at startup.
+[install]
+auto = "disable"

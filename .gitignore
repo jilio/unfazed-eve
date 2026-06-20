@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# build output
+.output/
+.nitro/
+.eve/
+dist/
+
+# secrets & local env — never commit these
+.env
+.env.*
+!.env.example
+
+# logs / os
+*.log
+.DS_Store
