@@ -1,6 +1,7 @@
 {
   "kind": "SERVICE",
   "runtime": "BUN",
+  "install": "bun install --production",
   "build": "NITRO_PRESET=standard bun node_modules/eve/bin/eve.js build",
   "entry": ".output/server/index.mjs",
   "external": ["microsandbox"]
